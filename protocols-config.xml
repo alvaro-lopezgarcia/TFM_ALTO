@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+         Copyright (c) 2016 Cisco Systems, Inc. and others.  All rights reserved.
+
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v1.0 which accompanies this distribution,
+    and is available at http://www.eclipse.org/legal/epl-v10.html
+-->
+<protocols xmlns="http://openconfig.net/yang/network-instance">
+    <protocol>
+        <name>bgp-ls</name>
+        <identifier xmlns:x="http://openconfig.net/yang/policy-types">x:BGP</identifier>
+        <bgp xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+            <global>
+                <config>
+                    <router-id>66.66.66.2</router-id>
+                    <as>100</as>
+                </config>
+                <afi-safis>
+                    <afi-safi>
+                        <afi-safi-name>LINKSTATE</afi-safi-name>
+                    </afi-safi>
+                </afi-safis>
+            </global>
+            <neighbors xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+                <neighbor xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+                    <neighbor-address>66.66.66.1</neighbor-address>
+                    <config>
+                        <peer-type>INTERNAL</peer-type>
+                        <peer-as>100</peer-as>
+                    </config>
+                    <transport>
+                        <config>
+                            <remote-port>179</remote-port>
+                            <passive-mode>false</passive-mode>
+                        </config>
+                    </transport>
+                    <timers>
+                        <config>
+                            <hold-time>200</hold-time>
+                            <connect-retry>10</connect-retry>
+                        </config>
+                    </timers>
+                    <route-reflector>
+                        <config>
+                            <route-reflector-client>false</route-reflector-client>
+                        </config>
+                    </route-reflector>
+                    <afi-safis>
+                        <afi-safi>
+                            <afi-safi-name>LINKSTATE</afi-safi-name>
+                        </afi-safi>
+                    </afi-safis>
+                </neighbor>
+            </neighbors>
+        </bgp>
+    </protocol>
+    <protocol>
+        <name>bgp</name>
+        <identifier xmlns:x="http://openconfig.net/yang/policy-types">x:BGP</identifier>
+        <bgp xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+            <global>
+                <config>
+                    <router-id>55.55.55.2</router-id>
+                    <as>100</as>
+                </config>
+                <afi-safis>
+                    <afi-safi>
+                        <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">x:IPV4-UNICAST</afi-safi-name>
+                    </afi-safi>
+                    <afi-safi>
+                        <afi-safi-name>LINKSTATE</afi-safi-name>
+                    </afi-safi>
+                </afi-safis>
+            </global>
+            <neighbors xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+                <neighbor xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
+                    <neighbor-address>10.10.10.5</neighbor-address>
+                    <config>
+                        <peer-type>INTERNAL</peer-type>
+                        <peer-as>100</peer-as>
+                    </config>
+                    <transport>
+                        <config>
+                            <remote-port>179</remote-port>
+                            <passive-mode>false</passive-mode>
+                        </config>
+                    </transport>
+                    <timers>
+                        <config>
+                            <hold-time>90</hold-time>
+                            <connect-retry>10</connect-retry>
+                        </config>
+                    </timers>
+                    <route-reflector>
+                        <config>
+                            <route-reflector-client>false</route-reflector-client>
+                        </config>
+                    </route-reflector>
+                    <afi-safis>
+                        <afi-safi>
+                            <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">x:IPV4-UNICAST</afi-safi-name>
+                        </afi-safi>
+                        <afi-safi>
+                            <afi-safi-name>LINKSTATE</afi-safi-name>
+                        </afi-safi>
+                    </afi-safis>
+                </neighbor>
+            </neighbors>
+        </bgp>
+    </protocol>
+</protocols>
