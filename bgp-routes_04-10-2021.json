@@ -1,0 +1,133 @@
+{
+    "bgp-inet:ipv4-routes": {
+        "ipv4-route": [
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.5"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.6"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "multi-exit-disc": {
+                        "med": 0
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.6"
+                    }
+                },
+                "path-id": 0,
+                "prefix": "22.22.22.0/30"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.5"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.3"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "multi-exit-disc": {
+                        "med": 0
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.3"
+                    }
+                },
+                "path-id": 0,
+                "prefix": "3.3.3.0/24"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.5"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.2"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "multi-exit-disc": {
+                        "med": 0
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.2"
+                    }
+                },
+                "path-id": 0,
+                "prefix": "2.2.2.0/24"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.5"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "multi-exit-disc": {
+                        "med": 0
+                    },
+                    "origin": {
+                        "value": "igp"
+                    }
+                },
+                "path-id": 0,
+                "prefix": "11.11.11.0/30"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.5"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.1"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "multi-exit-disc": {
+                        "med": 0
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.1"
+                    }
+                },
+                "path-id": 0,
+                "prefix": "1.1.1.0/24"
+            }
+        ]
+    }
+}

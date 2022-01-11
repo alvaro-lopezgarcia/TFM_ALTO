@@ -1,0 +1,1676 @@
+{
+    "bgp-linkstate:linkstate-routes": {
+        "linkstate-route": [
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "34.34.34.1",
+                    "ipv4-neighbor-address": "34.34.34.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEDAAQiIiIBAQQABCIiIgI="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "26.26.26.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEIAAEBAQkABR4aGhoA"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.4/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEIAAEBAQkABSAKCgoE"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "26.26.26.1",
+                    "ipv4-neighbor-address": "26.26.26.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEDAAQaGhoBAQQABBoaGgI="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "45.45.45.2",
+                    "ipv4-neighbor-address": "45.45.45.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430085
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBQEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEDAAQtLS0CAQQABC0tLQE="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "36.36.36.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEIAAEBAQkABR4kJCQA"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430085
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "45.45.45.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBQEIAAEBAQkABR4tLS0A"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.1/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEIAAEBAQkABSAKCgoB"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "36.36.36.2",
+                    "ipv4-neighbor-address": "36.36.36.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEDAAQkJCQCAQQABCQkJAE="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "26.26.26.2",
+                    "ipv4-neighbor-address": "26.26.26.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEDAAQaGhoCAQQABBoaGgE="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "34.34.34.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEIAAEBAQkABR4iIiIA"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "16.16.16.1",
+                    "ipv4-neighbor-address": "16.16.16.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEDAAQQEBABAQQABBAQEAI="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "36.36.36.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEIAAEBAQkABR4kJCQA"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.6/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEIAAEBAQkABSAKCgoG"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "24.24.24.2",
+                    "ipv4-neighbor-address": "24.24.24.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEDAAQYGBgCAQQABBgYGAE="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430085
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.5/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBQEIAAEBAQkABSAKCgoF"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "45.45.45.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEIAAEBAQkABR4tLS0A"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "14.14.14.2",
+                    "ipv4-neighbor-address": "14.14.14.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEDAAQODg4CAQQABA4ODgE="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "45.45.45.1",
+                    "ipv4-neighbor-address": "45.45.45.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430085
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBQEDAAQtLS0BAQQABC0tLQI="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "16.16.16.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEIAAEBAQkABR4QEBAA"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "36.36.36.1",
+                    "ipv4-neighbor-address": "36.36.36.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEDAAQkJCQBAQQABCQkJAI="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.2/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEIAAEBAQkABSAKCgoC"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "14.14.14.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEIAAEBAQkABR4ODg4A"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "14.14.14.1",
+                    "ipv4-neighbor-address": "14.14.14.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEDAAQODg4BAQQABA4ODgI="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "24.24.24.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEIAAEBAQkABR4YGBgA"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "16.16.16.2",
+                    "ipv4-neighbor-address": "16.16.16.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQEDAAQQEBACAQQABBAQEAE="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "26.26.26.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEIAAEBAQkABR4aGhoA"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "16.16.16.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBgEIAAEBAQkABR4QEBAA"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "10.10.10.3/32",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEIAAEBAQkABSAKCgoD"
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "34.34.34.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEIAAEBAQkABR4iIiIA"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "24.24.24.1",
+                    "ipv4-neighbor-address": "24.24.24.2"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAgEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEDAAQYGBgBAQQABBgYGAI="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430085
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBQ=="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "link-attributes": {
+                        "metric": 1
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "link-descriptors": {
+                    "ipv4-interface-address": "34.34.34.2",
+                    "ipv4-neighbor-address": "34.34.34.1"
+                },
+                "local-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "protocol-id": "ospf",
+                "remote-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "route-key": "AAIAYQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEBACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAwEDAAQiIiICAQQABCIiIgE="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430086
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBg=="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430083
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAw=="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "14.14.14.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEIAAEBAQkABR4ODg4A"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBA=="
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430081
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAQ=="
+            },
+            {
+                "advertising-node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430084
+                    }
+                },
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    },
+                    "prefix-attributes": {
+                        "prefix-metric": 1
+                    }
+                },
+                "identifier": 4,
+                "prefix-descriptors": {
+                    "ip-reachability-information": "24.24.24.0/30",
+                    "ospf-route-type": "intra-area"
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAMAOwMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKBAEIAAEBAQkABR4YGBgA"
+            },
+            {
+                "attributes": {
+                    "as-path": {},
+                    "cluster-id": {
+                        "cluster": [
+                            "10.10.10.6"
+                        ]
+                    },
+                    "ipv4-next-hop": {
+                        "global": "10.10.10.4"
+                    },
+                    "local-pref": {
+                        "pref": 100
+                    },
+                    "origin": {
+                        "value": "igp"
+                    },
+                    "originator-id": {
+                        "originator": "10.10.10.4"
+                    }
+                },
+                "identifier": 4,
+                "node-descriptors": {
+                    "area-id": 1,
+                    "as-number": 100,
+                    "domain-id": 0,
+                    "ospf-node": {
+                        "ospf-router-id": 168430082
+                    }
+                },
+                "protocol-id": "ospf",
+                "route-key": "AAEALQMAAAAAAAAABAEAACACAAAEAAAAZAIBAAQAAAAAAgIABAAAAAECAwAECgoKAg=="
+            }
+        ]
+    }
+}
